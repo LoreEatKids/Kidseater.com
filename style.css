@@ -44,6 +44,17 @@ blockquote {
 	font-family: monospace;
 }
 
+@media (max-width: 600px) {
+	.title {
+		font-size: 25px;
+		line-height: 60px;
+		margin-bottom: -25px;
+	}
+
+	.media {
+		margin-right: 5px;
+	}
+}
 
 
 
