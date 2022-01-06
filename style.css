@@ -48,6 +48,8 @@ blockquote {
 	margin-top: 40px;
 }
 
+/* Media Query */
+
 @media (max-width: 550px) {
 	header {
 		text-align: center;
@@ -59,6 +61,7 @@ blockquote {
 		line-height: 70px;
 	}
 	main {
+		padding: 0 10px;
 		font-size: 20px;
 		word-spacing: 5px;
 	}
