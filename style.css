@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif, monospace0;
 }
 
 body {
@@ -44,15 +44,31 @@ blockquote {
 	font-family: monospace;
 }
 
-@media (max-width: 600px) {
-	.title {
-		font-size: 25px;
-		line-height: 60px;
-		margin-bottom: -25px;
+.footer {
+	margin-top: 40px;
+}
+
+@media (max-width: 550px) {
+	header {
+		text-align: center;
 	}
 
-	.media {
-		margin-right: 5px;
+	.title {
+		margin: -60px 0 -30px 0px;
+		font-size: 30px;
+		line-height: 70px;
+	}
+	main {
+		font-size: 20px;
+		word-spacing: 5px;
+	}
+}
+
+@media (min-width:550px) and (max-width: 600px){
+	.title {
+		margin-top: -60px;
+		line-height: 80px;
+		font-size: 35px;
 	}
 }
 
